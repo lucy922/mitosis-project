@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component Matches snapshot 1`] = `
+<div>
+  <button
+    className="p-2 rounded text-center text-white bg-green-800 w-24"
+    data-testid="button"
+    onClick={[Function]}
+    type="submit"
+  >
+    Login
+  </button>
+</div>
+`;
+
+exports[`Button component should render primary button 1`] = `
+<div>
+  <button
+    className="p-2 rounded text-center text-white bg-blue-800 w-24"
+    data-testid="button"
+    onClick={[Function]}
+    type="submit"
+  >
+    primary
+  </button>
+</div>
+`;
+
+exports[`Button component should render secondary button 1`] = `
+<div>
+  <button
+    className="p-2 rounded text-center text-white bg-red-800 w-24"
+    data-testid="button"
+    onClick={[Function]}
+    type="submit"
+  >
+    secondary
+  </button>
+</div>
+`;
+
+exports[`Button component should render size lg 1`] = `
+<div>
+  <button
+    className="p-2 rounded text-center text-white bg-green-800 w-64"
+    data-testid="button"
+    onClick={[Function]}
+    type="submit"
+  >
+    large
+  </button>
+</div>
+`;
+
+exports[`Button component should render size md 1`] = `
+<div>
+  <button
+    className="p-2 rounded text-center text-white bg-green-800  w-32"
+    data-testid="button"
+    onClick={[Function]}
+    type="submit"
+  >
+    medium
+  </button>
+</div>
+`;
+
+exports[`Button component should render size sm 1`] = `
+<div>
+  <button
+    className="p-2 rounded text-center text-white bg-green-800 w-24"
+    data-testid="button"
+    onClick={[Function]}
+    type="submit"
+  >
+    small
+  </button>
+</div>
+`;
